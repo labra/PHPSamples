@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido fecha="3/2/2011">
+  <producto codigo="G23">
+   <nombre>Grapadora</nombre>
+   <cantidad>2</cantidad>
+   <comentarios>
+    Contactar con Juan
+   </comentarios>
+ </producto>
+ <producto codigo="R15">
+   <nombre>Rotulador</nombre>
+   <cantidad>10</cantidad>
+</producto>
+</pedido>

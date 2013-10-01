@@ -1,0 +1,13 @@
+<alumnos>
+
+<alumno dni="456">
+ <nombre>Juan</nombre>
+ <apellidos>Gallardo</apellidos>
+</alumno>
+
+<alumno dni="678">
+ <nombre>Luis</nombre>
+ <apellidos>Zamorano</apellidos>
+</alumno>
+
+</alumnos>

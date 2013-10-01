@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="pedido">
+<xs:complexType>
+ <xs:sequence>
+  <xs:element name="producto" type="TipoProducto" maxOccurs="10"/>
+ </xs:sequence>
+ <xs:attribute name="fecha" type="xs:string" />
+ </xs:complexType>
+</xs:element>
+
+<xs:complexType name="TipoProducto" >
+ <xs:sequence>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="cantidad" type="xs:int" />
+  <xs:element name="comentarios" type="xs:string" minOccurs="0"/>
+ </xs:sequence>
+ <xs:attribute name="codigo" type="xs:string" />
+</xs:complexType>
+</xs:schema>
